@@ -1,0 +1,68 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto Slab', serif;
+}
+:root{
+    --red-color:#ff0000;
+    --blue-color: #040f59;
+    --rose-color:#e2576e;
+    --green-color: #008000;
+   --liteblue-color:#3e479b;
+   --darkblue-color: #080263;
+   --litegreeen-color:#21fc51;
+  --darkgreen-color:#008000;
+  --white-color:#f0f8ff;
+  --liteblue1-color:#c7b9f8;
+  --liteblue2-color: #605ac1 ;
+  --lightgray-color: #444747;
+  --gray-color:#999898;;
+
+}
+header{
+    background: linear-gradient(to right, var(--liteblue-color) ,var(--darkblue-color));
+}
+
+.btn{
+    background: linear-gradient(to right, var(--litegreeen-color) , var(--darkgreen-color) );
+
+}
+table button{
+    background: linear-gradient(to left, var(--liteblue1-color) ,var(--liteblue2-color));
+    border: none;
+    padding:5px;
+    color: var(--white-color);
+}
+.fa-eye {
+    color:var(--green-color);
+}
+.fa-pen-to-square{
+    color: var(--rose-color);
+}
+.fa-download{
+    color:var(--red-color);
+}
+.fa-trash{
+    color:var(--blue-color)
+}
+hr{
+height: 10px;
+border: none;
+background-color:var(--lightgray-color);
+}
+th{
+    color: var(--gray-color);
+}
+h4{
+    color: var(--blue-color);
+}
+@media(max-width:768px){
+    thead th{
+        font-size: .7rem;
+    }
+    tbody td{
+        font-size: .8rem;
+    }
+}
